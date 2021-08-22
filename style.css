@@ -5,6 +5,25 @@ body {
     text-transform: uppercase;
     letter-spacing: 1rem;
 	background: linear-gradient(to right, red , blue); /* Standard syntax */
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-size: 1rem;
+}
+
+.context {
+  font-size: 1rem;
+}
+
+.outputParameters {
+  font-size: 1rem;
 }
 
 h1 {
@@ -13,7 +32,7 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1rem;
-    width: 100%;
+    
 }
 
 h4 {
@@ -43,10 +62,10 @@ button {
 *, *:before, *:after {
     transition:.5s linear;
   }
-  div {
+  .coolStylessButton {
     position: fixed;
     display: inline-block;
-    top: 55%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -69,13 +88,13 @@ button {
     position: absolute;
     background: #EFF5E6;
   }
-  div:before {
+  .coolStylessButton:before {
     bottom: 0;
     left: 0;
     width: 2px;
     height: 100%;
   }
-  div:after {
+  .coolStylessButton:after {
     top: 0;
     right: 0;
     width: 2px;
@@ -105,7 +124,7 @@ button {
     width: 2px;
     height: 100%;
   }
-  div:hover:before, div:hover:after, span:hover:before, span:hover:after {
+  .coolStylessButton:hover:before, div:hover:after, span:hover:before, span:hover:after {
     height: 0;
   }
   a:hover:before, a:hover:after {
