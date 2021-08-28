@@ -2,7 +2,7 @@ var currentCss = document.querySelector("h3");
 var color1 = document.querySelector(".color1");
 var color2 = document.querySelector(".color2");
 var body = document.getElementById("gradient");
-var coolButton = document.querySelector("div");
+var coolButton = document.getElementsByClassName("coolStylessButton")[0];
 
 // change the background to gradient
 // background: linear-gradient(to right, red , blue);
